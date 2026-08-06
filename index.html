@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberglossary</title>
+
+  <!-- Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Theme Switcher Top Right -->
+  <div class="theme-toggle-container">
+    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+      <!-- Sun Icon (Visible in Dark Mode) -->
+      <svg class="icon icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="4"></circle>
+        <path d="M12 2v2"></path>
+        <path d="M12 20v2"></path>
+        <path d="m4.93 4.93 1.41 1.41"></path>
+        <path d="m17.66 17.66 1.41 1.41"></path>
+        <path d="M2 12h2"></path>
+        <path d="M20 12h2"></path>
+        <path d="m6.34 17.66-1.41 1.41"></path>
+        <path d="m19.07 4.93-1.41 1.41"></path>
+      </svg>
+      <!-- Moon Icon (Visible in Light Mode) -->
+      <svg class="icon icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-title">
+        <svg class="icon-shield" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+        </svg>
+        <h1>Cyberglossary</h1>
+      </div>
+      <p><em><strong>No phishing, just fishing for knowledge.</strong></em></p>
+      <p>A simple, open database of cybersecurity terms explained in plain English.</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+      <!-- HOME VIEW -->
+      <div id="home-view" class="view">
+
+        <!-- Controls: Search All & Randomizer -->
+        <section class="controls-section">
+          <div class="search-box">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+            <input type="text" id="home-search-input" placeholder="Search all cybersecurity terms..." aria-label="Search all terms">
+          </div>
+          <button id="random-btn" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="12" height="12" x="2" y="10" rx="2" ry="2"></rect>
+              <path d="m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3.18l-1.74-1.74a2.24 2.24 0 0 0-3.18 0L13 9.08"></path>
+              <path d="M6 14h.01"></path>
+              <path d="M10 18h.01"></path>
+            </svg>
+            <span>Random Term</span>
+          </button>
+        </section>
+
+        <!-- Random Term Highlight Card -->
+        <section id="random-card" class="random-card hidden">
+          <div class="card-header">
+            <span class="badge">Term of the Moment</span>
+            <button id="close-random-btn" class="close-btn" aria-label="Close card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18"></path>
+                <path d="m6 6 12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <h2 id="random-term-title"></h2>
+          <span id="random-term-topic" class="topic-tag"></span>
+          <p class="short-def"><strong>Quick Def:</strong> <span id="random-term-short"></span></p>
+          <p class="layman-def"><strong>In Plain English:</strong> <span id="random-term-layman"></span></p>
+        </section>
+
+        <!-- Section Heading -->
+        <div class="section-title">
+          <h2>Explore Cybersecurity Topics</h2>
+        </div>
+
+        <!-- Square Topic Cards Grid -->
+        <section id="topics-grid" class="topics-grid">
+          <!-- Rendered dynamically -->
+        </section>
+
+        <!-- Search Results Grid on Home Page (if searching from home) -->
+        <section id="home-search-results" class="terms-grid hidden">
+          <!-- Renders search matches when typing in home search -->
+        </section>
+
+      </div>
+
+      <!-- SINGLE TOPIC PAGE VIEW -->
+      <div id="topic-view" class="view hidden">
+
+        <!-- Back Button -->
+        <div class="breadcrumb-nav">
+          <a href="#/" class="back-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 19-7-7 7-7"></path>
+              <path d="M19 12H5"></path>
+            </svg>
+            <span>Back to All Topics</span>
+          </a>
+        </div>
+
+        <!-- Topic Header & Search -->
+        <div class="topic-view-header">
+          <div class="topic-title-group">
+            <h2 id="current-topic-name"></h2>
+            <span id="current-topic-count" class="topic-count-badge"></span>
+          </div>
+
+          <div class="search-box">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+            <input type="text" id="topic-search-input" placeholder="Search within this topic..." aria-label="Search within topic">
+          </div>
+        </div>
+
+        <!-- Terms Grid for Selected Topic -->
+        <section id="topic-terms-grid" class="terms-grid">
+          <!-- Terms inserted via JS -->
+        </section>
+
+        <!-- No Results Placeholder -->
+        <div id="no-topic-results" class="no-results hidden">
+          <p>No matching terms found in this topic.</p>
+        </div>
+
+      </div>
+
+    </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>No phishing, just fishing for knowledge.</p>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+  <script src="js/theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-08-06",
+  "topics": [
+    { "id": "social-engineering", "name": "Social Engineering", "file": "socialeng.json" },
+    { "id": "web-security", "name": "Web Security", "file": "websec.json" },
+    { "id": "malware", "name": "Malware & Threats", "file": "malware.json" },
+    { "id": "network-security", "name": "Network Security", "file": "networksec.json" },
+    { "id": "cryptography", "name": "Cryptography", "file": "cryptography.json" },
+    { "id": "cloud-security", "name": "Cloud Security", "file": "cloudsec.json" },
+    { "id": "identity-access", "name": "Identity & Access", "file": "iam.json" },
+    { "id": "incident-response", "name": "Incident Response", "file": "incident.json" },
+    { "id": "application-security", "name": "AppSec & DevSecOps", "file": "appsec.json" },
+    { "id": "endpoint-security", "name": "Endpoint Security", "file": "endpoint.json" },
+    { "id": "data-privacy", "name": "Privacy & Governance", "file": "privacy.json" },
+    { "id": "threat-intelligence", "name": "Threat Intelligence", "file": "threatintel.json" },
+    { "id": "vulnerability-mgmt", "name": "Vulnerabilities", "file": "vuln.json" },
+    { "id": "wireless-mobile", "name": "Wireless & Mobile", "file": "wireless.json" },
+    { "id": "iot-ot-security", "name": "IoT & OT Security", "file": "iot.json" },
+    { "id": "ai-cybersecurity", "name": "AI & Future Tech", "file": "aisec.json" }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "multi-factor-authentication",
+    "term": "Multi-Factor Authentication (MFA)",
+    "topic": "Identity & Access",
+    "short_definition": "A security system requiring two or more independent credentials to verify a user identity.",
+    "layman_explanation": "Requiring both a keycard (something you have) and a PIN code (something you know) to enter a building.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "principle-of-least-privilege",
+    "term": "Principle of Least Privilege (PoLP)",
+    "topic": "Identity & Access",
+    "short_definition": "Granting users only the minimum access level necessary to perform their assigned work tasks.",
+    "layman_explanation": "Giving a contractor a keycard that opens only the room they are renovating, not the entire corporate headquarters.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "single-sign-on",
+    "term": "Single Sign-On (SSO)",
+    "topic": "Identity & Access",
+    "short_definition": "An authentication scheme enabling a user to log in once and access multiple related applications.",
+    "layman_explanation": "A master wristband at an amusement park that lets you enter every ride without purchasing separate tickets.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "role-based-access-control",
+    "term": "RBAC",
+    "topic": "Identity & Access",
+    "short_definition": "Assigning permissions to predefined job roles rather than individual human user accounts.",
+    "layman_explanation": "Issuing 'Manager Keycards' to all store managers instead of making custom badges for each employee name.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "oauth-20",
+    "term": "OAuth 2.0",
+    "topic": "Identity & Access",
+    "short_definition": "An open delegation protocol enabling applications to gain limited access to user accounts on another service.",
+    "layman_explanation": "Giving a valet key to a parking attendant that unlocks the ignition but keeps the glovebox locked.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "privileged-access-management",
+    "term": "PAM",
+    "topic": "Identity & Access",
+    "short_definition": "Specialized control systems designed to secure, monitor, and audit administrative accounts.",
+    "layman_explanation": "A high-security vault holding master keys that records who took a key, when, and for what exact job.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "credential-stuffing",
+    "term": "Credential Stuffing",
+    "topic": "Identity & Access",
+    "short_definition": "An automated cyberattack using stolen username-password pairs across thousands of different websites.",
+    "layman_explanation": "Taking a stolen set of house keys and trying them on every front door across the entire neighborhood.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "zero-trust-architecture",
+    "term": "Zero Trust",
+    "topic": "Identity & Access",
+    "short_definition": "A security model assuming no user or device is trusted by default, requiring continuous verification.",
+    "layman_explanation": "Checking ID badges at every hallway door inside a building, rather than just at the front main entrance.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "identity-federation",
+    "term": "Identity Federation",
+    "topic": "Identity & Access",
+    "short_definition": "Linking a user identity across multiple distinct security domains and different organizations.",
+    "layman_explanation": "Using your government passport to verify your identity when entering private locations abroad.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "attribute-based-access-control",
+    "term": "ABAC",
+    "topic": "Identity & Access",
+    "short_definition": "An authorization model evaluating rules based on user attributes, environment, and resource properties.",
+    "layman_explanation": "Allowing entry only if you are an employee (user), during business hours (environment), wearing safety boots (attribute).",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "passkeys",
+    "term": "Passkeys",
+    "topic": "Identity & Access",
+    "short_definition": "A passwordless login standard utilizing cryptographic key pairs backed by biometric device unlock features.",
+    "layman_explanation": "Unlocking your online accounts using your smartphone fingerprint or FaceID rather than typing text passwords.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "session-hijacking",
+    "term": "Session Hijacking",
+    "topic": "Identity & Access",
+    "short_definition": "Stealing an active authenticated session cookie to gain unauthorized user access.",
+    "layman_explanation": "Stealing a visitor hand-stamp at an event entrance so you can re-enter disguised as that person.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "biometric-authentication",
+    "term": "Biometrics",
+    "topic": "Identity & Access",
+    "short_definition": "Verifying identity through unique human biological characteristics such as fingerprints or iris scans.",
+    "layman_explanation": "Unlocking a secure vault door using your unique facial geometry instead of a physical metal key.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "just-in-time-access",
+    "term": "Just-In-Time Access (JIT)",
+    "topic": "Identity & Access",
+    "short_definition": "Granting elevated administrative rights temporarily for exact durations necessary to complete a task.",
+    "layman_explanation": "Giving a maintenance worker a digital pass that automatically expires after 30 minutes.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "account-takeover",
+    "term": "Account Takeover (ATO)",
+    "topic": "Identity & Access",
+    "short_definition": "A fraud attempt where attackers illegitimately gain control of a genuine user's account credentials.",
+    "layman_explanation": "Stealing someone's wallet and using their credit cards before the owner notices and cancels them.",
+    "added_on": "2026-08-06"
+  }
+]

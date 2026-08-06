@@ -1,0 +1,122 @@
+[
+  {
+    "id": "shared-responsibility-model",
+    "term": "Shared Responsibility Model",
+    "topic": "Cloud Security",
+    "short_definition": "A security framework where cloud providers and customers share accountability for system security.",
+    "layman_explanation": "The cloud provider secures the apartment building infrastructure, but you are still responsible for locking your own front door.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "s3-bucket-exposure",
+    "term": "S3 Bucket Exposure",
+    "topic": "Cloud Security",
+    "short_definition": "A misconfiguration in cloud storage allowing unauthenticated public internet access to private files.",
+    "layman_explanation": "Leaving a filing cabinet in a public park unlocked instead of inside a secure office building.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "cloud-security-posture-management",
+    "term": "CSPM",
+    "topic": "Cloud Security",
+    "short_definition": "Automated tools that continuously monitor cloud environments to detect misconfigurations and compliance violations.",
+    "layman_explanation": "An automated building inspector continuously checking every door, window, and fire exit across all your properties.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "serverless-security",
+    "term": "Serverless Security",
+    "topic": "Cloud Security",
+    "short_definition": "Securing applications that rely on ephemeral function executions rather than persistent virtual servers.",
+    "layman_explanation": "Renting a kitchen by the minute to cook one meal, requiring brief but tight security checks for every single dish.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "container-escape",
+    "term": "Container Escape",
+    "topic": "Cloud Security",
+    "short_definition": "An exploit where a user breaks out of an isolated application container onto the underlying host operating system.",
+    "layman_explanation": "A hotel guest finding a secret doorway out of their private room into the hotel's central control hub.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "cloud-access-security-broker",
+    "term": "CASB",
+    "topic": "Cloud Security",
+    "short_definition": "A security enforcement point placed between users and cloud services to enforce organizational policies.",
+    "layman_explanation": "A border checkpoint inspecting every package traveling between your office network and external cloud services.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "ephemeral-infrastructure",
+    "term": "Ephemeral Infrastructure",
+    "topic": "Cloud Security",
+    "short_definition": "Short-lived cloud components created dynamically and destroyed as soon as their job is finished.",
+    "layman_explanation": "Using temporary disposable cell phones instead of landline phones so attackers have no persistent target.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "microsegmentation",
+    "term": "Microsegmentation",
+    "topic": "Cloud Security",
+    "short_definition": "A network security technique that isolates individual workloads and limits internal lateral traffic.",
+    "layman_explanation": "Putting individual steel doors between every single office cubicle so an intruder cannot move between desks.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "shadow-it",
+    "term": "Shadow IT",
+    "topic": "Cloud Security",
+    "short_definition": "Hardware or software used within an organization without IT team knowledge or authorization.",
+    "layman_explanation": "Employees bringing unapproved home tools into a factory to complete work faster without safety checks.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "infrastructure-as-code-security",
+    "term": "IaC Security",
+    "topic": "Cloud Security",
+    "short_definition": "Scanning cloud deployment scripts for security vulnerabilities before infrastructure is provisioned.",
+    "layman_explanation": "Checking architectural blueprints for structural flaws before building materials are purchased.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "multitenancy",
+    "term": "Multitenancy",
+    "topic": "Cloud Security",
+    "short_definition": "An architecture where multiple customers share the same physical server resources safely separated logically.",
+    "layman_explanation": "Different families living in adjacent apartments inside one apartment building using separate locks.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "egress-filtering",
+    "term": "Egress Filtering",
+    "topic": "Cloud Security",
+    "short_definition": "Inspecting network traffic exiting a private cloud environment to prevent data exfiltration.",
+    "layman_explanation": "Security guards inspecting backpacks of people leaving a store rather than checking incoming shoppers.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "cloud-native-application-protection",
+    "term": "CNAPP",
+    "topic": "Cloud Security",
+    "short_definition": "A unified platform combining cloud security scanning, container protection, and posture management.",
+    "layman_explanation": "A single master security control center monitoring CCTV, smoke alarms, and keycards across all cloud sites.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "api-gateway",
+    "term": "API Gateway",
+    "topic": "Cloud Security",
+    "short_definition": "A management tool enforcing authentication, rate limits, and routing between cloud clients and backends.",
+    "layman_explanation": "A central mailroom routing incoming packages to internal departments while verifying sender credentials.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "data-residency",
+    "term": "Data Residency",
+    "topic": "Cloud Security",
+    "short_definition": "Legal and compliance requirements specifying physical geographic locations where data must be stored.",
+    "layman_explanation": "Rules mandating that official bank documents must remain inside country borders and cannot be transferred overseas.",
+    "added_on": "2026-08-06"
+  }
+]

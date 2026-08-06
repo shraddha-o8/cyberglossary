@@ -1,0 +1,122 @@
+[
+  {
+    "id": "security-information-event-management",
+    "term": "SIEM",
+    "topic": "Incident Response",
+    "short_definition": "A security solution aggregating log data across system infrastructure to detect real-time threats.",
+    "layman_explanation": "A central control room gathering live footage from hundreds of security cameras across a city.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "security-operations-center",
+    "term": "SOC",
+    "topic": "Incident Response",
+    "short_definition": "A centralized team of security professionals monitoring, analyzing, and responding to cyber incidents.",
+    "layman_explanation": "The 24/7 emergency dispatch room filled with trained operators monitoring active fire and police calls.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "indicator-of-compromise",
+    "term": "IoC",
+    "topic": "Incident Response",
+    "short_definition": "Forensic evidence or digital clues indicating a system network has been breached by intruders.",
+    "layman_explanation": "Fingerprints, muddy footprints, or broken glass found at a crime scene after a burglary.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "digital-forensics",
+    "term": "Digital Forensics",
+    "topic": "Incident Response",
+    "short_definition": "The recovery and investigation of digital materials found in devices during cybercrime investigations.",
+    "layman_explanation": "A detective analyzing evidence under a microscope to piece together step-by-step how a crime occurred.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "air-gapping",
+    "term": "Air-Gapping",
+    "topic": "Incident Response",
+    "short_definition": "A security measure isolating a computer system physically from local networks and the public internet.",
+    "layman_explanation": "Storing important documents on a computer inside a safe located in a room with no internet cables or Wi-Fi.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "threat-hunting",
+    "term": "Threat Hunting",
+    "topic": "Incident Response",
+    "short_definition": "Proactively searching networks to isolate undetected threats that evaded automated security tools.",
+    "layman_explanation": "Security personnel patrolling building corridors looking for hidden intruders rather than waiting for alarms.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "security-orchestration-automation-response",
+    "term": "SOAR",
+    "topic": "Incident Response",
+    "short_definition": "Technologies enabling organizations to automate incident response workflows and threat containment tasks.",
+    "layman_explanation": "An automated system triggering fire sprinklers and locking panic doors instantly when smoke is detected.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "tabletop-exercise",
+    "term": "Tabletop Exercise",
+    "topic": "Incident Response",
+    "short_definition": "A discussion-based drill where security teams walk through simulated cyberattack emergency scenarios.",
+    "layman_explanation": "A fire department rehearsing emergency evacuation routes on a blueprint map before real fires happen.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "containment-strategy",
+    "term": "Containment Strategy",
+    "topic": "Incident Response",
+    "short_definition": "Actions taken during an incident to isolate affected systems and stop an attack from spreading further.",
+    "layman_explanation": "Closing emergency fire doors inside a burning building to trap flames in one room.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "playbook",
+    "term": "IR Playbook",
+    "topic": "Incident Response",
+    "short_definition": "Standard operating procedure guidelines detailing step-by-step responses for specific cyber incidents.",
+    "layman_explanation": "An emergency instruction manual explaining exact steps staff must take if power goes out during surgery.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "endpoint-detection-and-response",
+    "term": "EDR",
+    "topic": "Incident Response",
+    "short_definition": "Software installed on user devices that monitors behavior, records activities, and blocks malicious events.",
+    "layman_explanation": "An intelligent guard dog stationed at every employee desk watching for suspicious behavior.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "root-cause-analysis",
+    "term": "Root Cause Analysis (RCA)",
+    "topic": "Incident Response",
+    "short_definition": "A problem-solving methodology identifying fundamental vulnerabilities that permitted a cyber breach.",
+    "layman_explanation": "Investigating why a dam broke to fix the structural flaw rather than just pumping out floodwater.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "incident-triage",
+    "term": "Incident Triage",
+    "topic": "Incident Response",
+    "short_definition": "Categorizing and prioritizing security alerts based on severity, urgency, and potential business impact.",
+    "layman_explanation": "A hospital ER nurse assessing patients to treat critical injuries before minor cuts.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "chain-of-custody",
+    "term": "Chain of Custody",
+    "topic": "Incident Response",
+    "short_definition": "The chronological documentation showing collection, control, transfer, and analysis of digital evidence.",
+    "layman_explanation": "A logbook recording every detective who handled a evidence bag to ensure court validity.",
+    "added_on": "2026-08-06"
+  },
+  {
+    "id": "kill-chain-analysis",
+    "term": "Cyber Kill Chain",
+    "topic": "Incident Response",
+    "short_definition": "A model mapping stages of a cyberattack from initial reconnaissance through data exfiltration.",
+    "layman_explanation": "Studying every step of a bank heist—from planning and breaking in to cracking the safe and escaping.",
+    "added_on": "2026-08-06"
+  }
+]
